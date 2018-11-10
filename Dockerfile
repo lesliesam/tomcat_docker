@@ -6,4 +6,4 @@ MAINTAINER "Sam Yu <lesliesam@hotmail.com>"
 
 COPY tomcat-users.xml /usr/local/tomcat/conf/
 COPY server.xml /usr/local/tomcat/conf/
-COPY content.xml /usr/local/tomcat/webapps/manager/META-INF/
+COPY context.xml /usr/local/tomcat/webapps/manager/META-INF/
